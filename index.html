@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Aumit Das" />
+    <meta name="description" content="We love JavaScript" />
+    <title>To-Do-App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Task List</h1>
+
+      <form>
+        <input type="text" id="new-task" placeholder="Task Name" />
+        <input type="submit" value="Add Task" />
+      </form>
+
+      <hr />
+
+      <h2>Tasks</h2>
+      <input type="text" id="filter" placeholder="Filter Tasks" />
+      <ul id="ulItems"></ul>
+
+      <button id="clearBtn">clear tasks</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
